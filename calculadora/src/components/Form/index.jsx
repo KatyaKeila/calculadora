@@ -14,6 +14,7 @@ const Form = () => {
       />
       <p>Em quantas parcelas *</p>
       <input type="text" />
+      <p className="pparcelas">Máximo de 12 parcelas</p>
       <p>Informe o percentual de MDR *</p>
       <input type="text" />
     </Form1>

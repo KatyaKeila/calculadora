@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: flex-start;
 
   background: rgba(209, 220, 227, 0.18);
-  padding: 2rem;
+  padding: 4rem;
   color: #5d9cec;
 
   font-family: "IBM Plex Sans", sans-serif;
