@@ -1,9 +1,10 @@
 import { useState } from "react";
+import { Form1 } from "./styles";
 
 const Form = () => {
   const [valor, setValor] = useState("");
   return (
-    <form>
+    <Form1>
       <h3> Simule sua Antecipação </h3>
       <p>Informe o valor da venda *</p>
       <input
@@ -15,7 +16,7 @@ const Form = () => {
       <input type="text" />
       <p>Informe o percentual de MDR *</p>
       <input type="text" />
-    </form>
+    </Form1>
   );
 };
 
